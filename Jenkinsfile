@@ -25,7 +25,7 @@ pipeline {
 			sh '/opt/maven/bin/mvn clean deploy -Dmaven.test.skip=true'
 		}
 	}
-	stage ('Release') {
+	stage ('Release and test') {
 		steps {
 			sh 'export JENKINS_NODE_COOKIE=dontkillme ;nohup java -jar $WORKSPACE/target/*.jar &'
 		}
