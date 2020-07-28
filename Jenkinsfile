@@ -1,7 +1,7 @@
 pipeline {
    agent any
 	stages {
-      stage('Git checkouts') {
+      stage('Git Checkout') {
          steps {
             git 'https://github.com/Anjuna661/parking_backend.git'
 		}
