@@ -9,9 +9,9 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hcl</groupId>
+	<groupId>GIT</groupId>
 	<artifactId>parking</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>parking</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -78,7 +78,7 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://13.233.201.241:8081/repository/maven-snapshots</url>
+	    <url>http://18.188.187.108:8081/repository/maven-snapshots</url>
 	  </snapshotRepository>
 	</distributionManagement>
 	
